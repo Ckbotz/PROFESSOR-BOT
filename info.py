@@ -11,6 +11,7 @@ def is_enabled(value, default):
 
 
 # PyroClient Setup 
+PORT = environ.get("PORT", "8000")
 API_ID = int(environ['API_ID'])
 API_HASH = environ['API_HASH']
 BOT_TOKEN = environ['BOT_TOKEN']
